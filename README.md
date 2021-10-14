@@ -6,7 +6,7 @@ https://nuxt-ads.herokuapp.com/
 
 ## Features
 * Creating/editing account
-* Creating/editing/deleting ads
+* Creating/editing/deleting ad
 * Send/receive text and file messages
 * Searching for ad
 
