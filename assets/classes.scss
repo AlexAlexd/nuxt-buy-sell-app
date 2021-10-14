@@ -1,0 +1,89 @@
+.btn-primary {
+font-size: 14px;
+line-height: 30px;
+color: $light;
+padding: 0 14px;
+border-radius: 2px;
+white-space: nowrap;
+display: flex;
+@media screen and (max-width: $screen-s) {
+font-size: 12px;
+	}
+&:hover {
+	background: #f6f6f6;
+	cursor: pointer;
+}
+}
+.input-field {
+line-height: 30px;
+background: #ebebeb;
+padding: 0 16px;
+border-radius: 2px;
+font-size: 14px;
+}
+
+.btn-action {
+background: $primary;
+color: #ffffff;
+font-weight: 500;
+line-height: 30px;
+height: 30px;
+padding: 0 20px;
+border-radius: 2px;
+text-align: center;
+font-size: 14px;
+&:hover {
+	cursor: pointer;
+	background: lighten($primary, 10)
+}
+&.disabled {
+	opacity: 0.5;
+	cursor: default;
+	&:hover {
+		background: $primary;
+	}
+	}
+}
+.color-red {
+	color: red;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	padding: $offset;
+	& > input {
+		margin-top: $offset;
+	}
+	&__error {
+		font-size: 14px;
+		color: red;
+		text-align: center;
+	}
+}
+.error-message {
+margin-top: 5px;
+color: red;
+font-size: 12px;
+}
+.container-sm {
+margin: 0 auto;
+max-width: 600px;
+width: 100%;
+padding: 0 $offset;
+}
+
+.back-btn {
+margin: $offset 0;
+}
+
+.no-items-plug {
+	text-align: center;
+    margin-top: 20px;
+}
+.textarea {
+	resize: none;
+	height: 140px;
+	line-height: 1;
+	padding: $offset;
+	background-color: $secondary;
+}
