@@ -6,6 +6,7 @@ https://nuxt-ads.herokuapp.com/
 
 ## Tech stack
 * Nuxt (Vue 2, Vuex, Vue-router)
+* SCSS
 * Firebase
 
 ## Features
