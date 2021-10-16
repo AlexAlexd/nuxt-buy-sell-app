@@ -4,6 +4,10 @@ Web app for creating, searching ads, chatting between seller and buyer.
 ## Demo
 https://nuxt-ads.herokuapp.com/
 
+## Tech stack
+Client: Nuxt (Vue 2, Vuex, Vue-router)
+Server: Firebase
+
 ## Features
 * Creating/editing account
 * Creating/editing/deleting ad
